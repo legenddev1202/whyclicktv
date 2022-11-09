@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build",
+    "target": "whyclick",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

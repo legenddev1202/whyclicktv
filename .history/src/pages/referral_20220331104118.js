@@ -1,0 +1,73 @@
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+
+function Referral() {
+  return (
+    <div
+      className="w-full"
+      style={{ height: "100vh", backgroundColor: "#F05A23" }}
+    >
+      <div className="w-full p-12 flex h-full">
+        <div className="w-1/2 p-12 mx-12 flex flex-col items-center bg-white h-11/12 relative">
+          <div className="text-4xl font-bold">Who you are</div>
+          <div className="w-full mt-8">
+            <input
+              className="w-full rounded-md h-16 border px-4 bg-gray-100"
+              placeholder="Name"
+            ></input>
+            <div className="w-full mt-8">
+              <input
+                className="w-full rounded-md h-16 border px-4 bg-gray-100"
+                placeholder="Association with us"
+              ></input>
+            </div>
+          </div>
+          <div className="abolute">
+            <img
+              className="logo-icon h-full absolute -bottom-20 right-72"
+              src="assets/images/logos/tv-logo.png"
+              alt="logo"
+            />
+          </div>
+        </div>
+        <div className="w-1/2 p-12 mx-12 flex flex-col items-center bg-white h-11/12">
+          <div className="text-4xl font-bold">Referral</div>
+          <div className="w-full mt-8">
+            <input
+              className="w-full rounded-md h-16 border px-4 bg-gray-100"
+              placeholder="Name"
+            ></input>
+            <div className="w-full mt-8">
+              <input
+                className="w-full rounded-md h-16 border px-4 bg-gray-100"
+                placeholder="Email"
+              ></input>
+            </div>
+            <div className="w-full mt-8">
+              <input
+                className="w-full rounded-md h-16 border px-4 bg-gray-100"
+                placeholder="Number"
+              ></input>
+            </div>
+            <div className="w-full mt-8">
+              <input
+                className="w-full rounded-md h-16 border px-4 bg-gray-100"
+                placeholder="Message..."
+              ></input>
+            </div>
+          </div>
+          <div className="self-start mt-8">
+            <button
+              className="p-4 rounded-full px-16"
+              style={{ backgroundColor: "#F05A23", color: "white" }}
+            >
+              SUBMIT
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Referral;

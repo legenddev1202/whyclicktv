@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "insurancewebapptest"
+  },
+  "targets": {
+    "insurancewebapptest": {
+      "hosting": {
+        "whyclick": [
+          "why-click"
+        ]
+      }
+    }
+  }
+}
